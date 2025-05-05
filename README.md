@@ -13,7 +13,7 @@ python manage.py generate_encryption_key --env production
 ### Encrypt Text
 
 ```python
-python manage.py encrypt_text --text sk_live_Gx4mWEgHtCMr4DYMUIqfIrsz --env production
+python manage.py encrypt_text --text sk_live_....YMUIqfIrsz --env production
 ```
 
 ### Usage
