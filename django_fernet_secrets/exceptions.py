@@ -1,0 +1,4 @@
+
+
+class DjangoFernetSecretsException(Exception):
+    pass
