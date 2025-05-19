@@ -1,6 +1,6 @@
 # django-fernet-secrets
 
-A package to simplify secret management for Django projects. Instead of encyrpting every "secret" with a different encryption key, this package encyrpts all secrets with a single master key.
+A package to simplify secret management for Django projects. Instead of encrypting every "secret" with a different encryption key, this package encrypts all secrets with a single master key.
 
 ## Getting Started
 

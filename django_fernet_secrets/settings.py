@@ -1,3 +1,1 @@
-
-
-ENCRYPTION_KEY_BY_ENVIRONMENT_FILE_NAME = "encryption_keys.secret.json"
+ENCRYPTION_KEY_ENVIRONMENT_FILE_NAME = "secrets.env"

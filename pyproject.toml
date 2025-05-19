@@ -1,0 +1,31 @@
+[project]
+name = "django-fernet-secrets"
+version = "0.1.0"
+description = "A Django utility for managing secrets encrypted with Fernet."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    { name = "Efe Öge", email = "efeoge@gmail.com" }
+]
+keywords = ["django", "fernet", "secrets", "encryption", "security"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Django",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "cryptography==44.0.3",
+    "python-dotenv==1.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/efe/django-fernet-secrets"
+Repository = "https://github.com/efe/django-fernet-secrets"
+Issues = "https://github.com/efe/django-fernet-secrets/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
